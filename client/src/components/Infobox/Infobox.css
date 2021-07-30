@@ -1,0 +1,79 @@
+
+.InnerContainer{
+
+    display:flex;
+    height:100vh;
+    width: 100%;
+    background-color: white;
+
+}
+.RightContainer{
+    position: relative;
+    /* background-color: blueviolet; */
+    width: 45%;
+    
+ 
+}
+.LeftContainer{
+    position: relative;
+    /* background-color: cadetblue; */
+    text-align: center;
+    width: 55%;
+    border-left:2px solid rgb(223, 219, 219);
+}
+h2,h1{ 
+    margin:unset;
+    margin-left:20px;
+   
+}
+
+.container-header{
+    height:10%;
+    line-height:50px;
+    vertical-align: center;
+    position: absolute;
+    width:100%;
+    align-content: center;
+    border-right:3px solid white;
+    background-color: rgb(109, 109, 238);
+    color:white;
+    
+}
+.r{
+    border-left:3px solid white;
+}
+.Messagebox{
+position: absolute ;
+display: flex;
+bottom:0;
+height: 8%;
+border-bottom: 5px solid crimson;
+width:100%;
+/* background-color:yellow; */
+}
+
+input[type=text]{
+    width: 80%;  
+    border-radius: 20px;
+    background-color: whitesmoke;
+
+}
+input[type=text]:focus{
+      
+    border:1px solid rgb(85, 85, 255);
+    border-radius: 20px;
+}
+
+.send-btn{
+ width: 20%;
+ background-color: rgb(50, 153, 247);
+ color:cornsilk;
+ font-size:150%;
+ border-radius:20px;
+ border:1px solid white;
+}
+.send-btn:hover{
+    background-color:rgba(27, 137, 240, 0.808);
+    border:1px solid white;
+    color:white;
+}

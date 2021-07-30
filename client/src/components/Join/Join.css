@@ -1,0 +1,50 @@
+.joinOuterContainer{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    height:100vh;
+}
+
+
+.joinInnerContainer{
+    color:white;
+    text-align: center;
+    width:100vh
+
+}
+
+h1{
+    font-size:3rem;
+}
+.heading{
+    font-size:2rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.918);
+    justify-content: center;
+}
+.joinInput {
+    width: auto;
+    margin: 5px;
+}
+input[type=text]{
+width: 50%;
+line-height: 1rem;
+padding: 0.5rem;
+font-size: 16px;
+}
+.btn{
+    border-radius: 5%;
+    width: 25%;
+    padding:5px;
+    margin:5px;
+    line-height: 2rem;
+    font-size:1.5rem;
+    background-color: rgba(58, 58, 240, 0.856);
+    color:white
+    
+}
+.btn:hover{
+    color:white;
+    background-color: rgb(156, 238, 75);
+}
